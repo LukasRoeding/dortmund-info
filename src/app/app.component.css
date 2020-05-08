@@ -1,0 +1,31 @@
+
+.Überschrift{
+
+    text-align: center;
+    color: #ffe800;
+    font-size: 6em;
+
+
+}
+
+.Sidebar-Überschrift{
+
+    text-align: center;
+    color: #ffe800;
+    font-size: 3em;
+
+
+}
+.sidenav{
+    width:20%;
+    height:100%;
+}
+
+mat-grid-tile {
+    background: lightblue;
+  }
+  mat-grid-list{
+      width: 70%;
+      margin-left: 15%;
+      margin-top:10%;
+  }
