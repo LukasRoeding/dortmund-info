@@ -10,6 +10,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav'; 
 import {MatGridListModule} from '@angular/material/grid-list';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -26,7 +27,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatButtonModule,
     MatIconModule,
     MatSidenavModule,
-    MatGridListModule
+    MatGridListModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

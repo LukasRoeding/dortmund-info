@@ -1,2 +1,11 @@
-<p>wetter works!</p>
-
+<div class="wetter">Temperatur:{{items[0]-273}}°C</div>
+<div class="wetter">Tiefsttemperatur:{{items[2]-273}}°C</div>
+<div class="wetter">Höchsttemperatur:{{items[3]-273}}°C</div>
+<div class="wetter">{{items[5]}}% Luftfeuchtigkeit</div>
+<div class="wetter" *ngIf = "wolkenitems[2]=='overcast clouds'">Himmel: leicht bewölkt</div>
+<div class="wetter" *ngIf = "wolkenitems[2]=='clear sky'">Himmel: klarer Himmel</div>
+<div class="wetter" *ngIf = "wolkenitems[2]=='light rain'">Himmel: leichter Regen</div>
+<div class="wetter" *ngIf = "wolkenitems[2]=='moderate rain'">Himmel: mittlerer Regen</div>
+<div class="wetter" *ngIf = "wolkenitems[2]=='scattered clouds'">Himmel: Wolkenfetzen</div>
+<div class="wetter" *ngIf = "wolkenitems[2]=='broken clouds'">Himmel: Wolkenfetzen</div>
+<div class="wetter" *ngIf = "wolkenitems[2]=='few clouds'">Himmel: ein paar Wolken</div>

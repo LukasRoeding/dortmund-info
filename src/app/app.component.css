@@ -19,13 +19,22 @@
 .sidenav{
     width:20%;
     height:100%;
+    background-color: rgb(66, 66, 66);
+    color: rgb(223, 223, 223);
+    
 }
 
 mat-grid-tile {
     background: lightblue;
   }
+
   mat-grid-list{
       width: 70%;
       margin-left: 15%;
       margin-top:10%;
   }
+  .background{
+    background-image: url(../assets/hintergrund.jpg);
+    width: 100%;
+    background-size: cover;
+}
