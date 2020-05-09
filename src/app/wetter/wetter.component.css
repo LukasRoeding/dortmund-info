@@ -1,5 +1,19 @@
 .wetter{
-    font-size: larger;
-    margin-left: 10px;
+    font-size: 1vw;
+    margin-left: 10%;
     margin-bottom: 2px;
+}
+@media screen and (max-width: 1600px){
+    .wetter{
+        font-size: larger;
+        margin-left: 10%;
+        margin-bottom: 2px;
+    }
+}
+@media screen and (max-width: 800px){
+    .wetter{
+        font-size: smaller;
+        margin-left: 10%;
+        margin-bottom: 2px;
+    }
 }
