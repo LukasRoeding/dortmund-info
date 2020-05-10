@@ -12,17 +12,17 @@ export class WetterComponent implements OnInit {
   wolkenitems=[];
 
   constructor(private http: HttpClient) {
-    this.http.get(this.url).toPromise().then(data => {console.log(data.weather[0]); for (let key in data.main)
+    this.http.get(this.url).toPromise().then(data => {for (let key in data.main)
     if (data.main.hasOwnProperty(key))
       this.items.push(Math.round(data.main[key])); for (let key2 in data.weather[0])
       if (data.weather[0].hasOwnProperty(key2))
-        this.wolkenitems.push(data.weather[0][key2]);console.log(this.wolkenitems[2])
+        this.wolkenitems.push(data.weather[0][key2]);
     });
    
    }
 
   ngOnInit() {
-    console.log(this.items);
+
   }
 
 

@@ -1,0 +1,15 @@
+.Spieltag{
+    font-size: 2em;
+        margin-left: 10%;
+        margin-bottom: 2px;
+        color: #ffe800;
+        margin-right: 10%;
+}
+.keinSpieltag{
+    font-size: 2em;
+        margin-left: 10%;
+        margin-bottom: 2px;
+        margin-right: 10%;
+        color: #ffe800;
+
+}

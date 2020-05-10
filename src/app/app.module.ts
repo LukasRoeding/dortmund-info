@@ -11,13 +11,17 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav'; 
 import {MatGridListModule} from '@angular/material/grid-list';
 import { HttpClientModule } from '@angular/common/http';
+import { BvbComponent } from './bvb/bvb.component';
+import { PhoenixseeComponent } from './phoenixsee/phoenixsee.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    WetterComponent
+    WetterComponent,
+    BvbComponent,
+    PhoenixseeComponent
   ],
   imports: [
     BrowserModule,

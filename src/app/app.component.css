@@ -3,7 +3,8 @@
 
     text-align: center;
     color: #ffe800;
-    font-size: 6em;
+    font-size: 5em;
+    font-weight: bolder;
 
 
 }
@@ -25,16 +26,42 @@
 }
 
 mat-grid-tile {
-    background: lightblue;
-  }
+    background: rgb(66, 66, 66);
+}
 
   mat-grid-list{
-      width: 70%;
-      margin-left: 15%;
+      width: 80%;
+      margin-left: 10%;
       margin-top:10%;
   }
   .background{
     background-image: url(../assets/hintergrund.jpg);
     width: 100%;
     background-size: cover;
+    height:100vh;
+}
+.grid-überschrift{
+    
+    color: #ffe800;
+    font-size: 1.62vw;
+    margin-right: 7.88%;
+    background-color: rgb(66, 66, 66, 1);
+    font-weight: bolder;
+    padding-left:1%;
+    padding-right:1%;
+}
+.grid-überschrift2{
+    
+    color: #ffe800;
+    font-size: 1.766vw;
+    background-color: rgb(66, 66, 66, 1);
+    font-weight: bolder;
+    padding-left: 22%;
+    padding-right: 21.7%;
+
+}
+
+.img-responsive{
+    height:100%;
+    width:100%;
 }

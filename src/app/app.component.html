@@ -4,14 +4,19 @@
 <mat-sidenav-container class="background">
 <mat-sidenav class="sidenav" mode="side" position="end" opened>
     <h1 class="Sidebar-Überschrift">Das heutige Wetter</h1><app-wetter></app-wetter>
-    <h1 class="Sidebar-Überschrift">Spielt der BVB heute?</h1></mat-sidenav>
+    <h1 class="Sidebar-Überschrift">Spielt der BVB heute?</h1><app-bvb></app-bvb></mat-sidenav>
 <mat-sidenav-content>
     <h1 class="Überschrift">Dortmund</h1>
 
     <mat-grid-list cols="3" rowHeight="2:3" gutterSize="5vw">
-        <mat-grid-tile>1</mat-grid-tile>
-        <mat-grid-tile>2</mat-grid-tile>
-        <mat-grid-tile>3</mat-grid-tile>
+        <mat-grid-tile-header><a class="grid-überschrift">Aktuelle Verkehrslage</a><a class="grid-überschrift2">Phoenixsee live</a></mat-grid-tile-header>
+        <mat-grid-tile >
+            <iframe src="https://embed.waze.com/iframe?zoom=12&lat=51.513587&lon=7.465298&ct=livemap" width="100%" height="100%" allowfullscreen></iframe>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="2">
+            <app-phoenixsee class="img-responsive"></app-phoenixsee>
+        </mat-grid-tile>
+        
       </mat-grid-list>
  
 </mat-sidenav-content>
