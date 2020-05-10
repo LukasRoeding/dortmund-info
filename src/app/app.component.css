@@ -1,4 +1,7 @@
-
+.verkehr-mobile{
+    opacity: 0;
+    height:0;
+}
 .Überschrift{
 
     text-align: center;
@@ -25,13 +28,11 @@
     
 }
 
-mat-grid-tile {
-    background: rgb(66, 66, 66);
-}
+
 
   mat-grid-list{
-      width: 80%;
-      margin-left: 10%;
+      width: 90%;
+      margin-left: 5%;
       margin-top:10%;
   }
   .background{
@@ -40,27 +41,77 @@ mat-grid-tile {
     background-size: cover;
     height:100vh;
 }
+
 .grid-überschrift{
     
     color: #ffe800;
-    font-size: 1.62vw;
-    margin-right: 7.88%;
+    font-size: 1.5vw;
+    margin-right: 2vw;
     background-color: rgb(66, 66, 66, 1);
     font-weight: bolder;
-    padding-left:1%;
-    padding-right:1%;
+    padding-left:3.6vw;
+    padding-right:3.6vw;
 }
 .grid-überschrift2{
     
     color: #ffe800;
-    font-size: 1.766vw;
+    font-size: 1.5vw;
     background-color: rgb(66, 66, 66, 1);
     font-weight: bolder;
-    padding-left: 22%;
-    padding-right: 21.7%;
+    padding-left: 14.5vw;
+    padding-right: 14.5vw; 
 
+}@media screen and (max-width: 1000px){
+    .sidenav{
+        width:100%
+    }
+    mat-grid-list{
+        width: 0%;
+        margin-left: 20%;
+        margin-top:0%;
+        opacity: 0;
+    }
+    .Überschrift{
+        margin-left: 25%;
+        font-size: 3em;
+    }
+    .verkehr-mobile{
+        opacity: 1;
+        height:70%;
+    }
 }
-
+@media screen and (min-width: 1200px){
+    .grid-überschrift{
+    
+        color: #ffe800;
+        font-size: 1.5vw;
+        margin-right: 2vw;
+        background-color: rgb(66, 66, 66, 1);
+        font-weight: bolder;
+        padding-left:3.6vw;
+        padding-right:3.6vw;
+    }
+    .grid-überschrift2{
+        
+        color: #ffe800;
+        font-size: 1.5vw;
+        background-color: rgb(66, 66, 66, 1);
+        font-weight: bolder;
+        padding-left: 15.35vw;
+        padding-right: 15.35vw; 
+    
+    }  }
+@media screen and (min-width: 2200px){
+    .grid-überschrift2{
+    
+        color: #ffe800;
+        font-size:4em;
+        background-color: rgb(66, 66, 66, 1);
+        font-weight: bolder;
+        padding-left: 217px;
+        padding-right: 217px; 
+    }  
+}
 .img-responsive{
     height:100%;
     width:100%;

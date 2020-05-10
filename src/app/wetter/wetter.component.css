@@ -1,19 +1,24 @@
 .wetter{
-    font-size: 1vw;
-    margin-left: 10%;
-    margin-bottom: 2px;
-}
-@media screen and (max-width: 1600px){
-    .wetter{
-        font-size: larger;
+    font-size: 2em;
         margin-left: 10%;
         margin-bottom: 2px;
-    }
+        color: #ffe800;
+        margin-right: 10%;
 }
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 1000px){
     .wetter{
-        font-size: smaller;
-        margin-left: 10%;
-        margin-bottom: 2px;
+text-align: center;
     }
 }
+@media screen and (max-width: 1700px){
+    .wetter{
+        font-size: 1em;
+            margin-left: 10%;
+            margin-bottom: 2px;
+            color: #ffe800;
+            margin-right: 10%;
+    }
+}
+
+
