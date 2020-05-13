@@ -7,7 +7,12 @@
     text-align: center;
     color: #ffe800;
     font-size: 5em;
+    background-color: rgb(66, 66, 66, 1);
     font-weight: bolder;
+    border-radius: 20px;
+    
+    width: 50%;
+    margin-left: 25%;
 
 
 }
@@ -30,10 +35,10 @@
 
 
 
+
   mat-grid-list{
       width: 90%;
       margin-left: 5%;
-      margin-top:10%;
   }
   .background{
     background-image: url(../assets/hintergrund.jpg);
@@ -46,11 +51,13 @@
     
     color: #ffe800;
     font-size: 1.5vw;
-    margin-right: 2vw;
+    margin-right: 15vw;
     background-color: rgb(66, 66, 66, 1);
     font-weight: bolder;
-    padding-left:3.6vw;
-    padding-right:3.6vw;
+    padding-left:4%;
+    padding-right:4%;
+    border-radius: 20px;
+
 }
 .grid-überschrift2{
     
@@ -58,8 +65,9 @@
     font-size: 1.5vw;
     background-color: rgb(66, 66, 66, 1);
     font-weight: bolder;
-    padding-left: 14.5vw;
-    padding-right: 14.5vw; 
+    padding-left: 4%;
+    padding-right: 4%; 
+    border-radius: 20px;
 
 }@media screen and (max-width: 1000px){
     .sidenav{
@@ -85,11 +93,11 @@
     
         color: #ffe800;
         font-size: 1.5vw;
-        margin-right: 2vw;
+        margin-right: 15vw;
         background-color: rgb(66, 66, 66, 1);
         font-weight: bolder;
-        padding-left:3.6vw;
-        padding-right:3.6vw;
+        padding-left:4%;
+        padding-right:4%;
     }
     .grid-überschrift2{
         
@@ -97,20 +105,45 @@
         font-size: 1.5vw;
         background-color: rgb(66, 66, 66, 1);
         font-weight: bolder;
-        padding-left: 15.35vw;
-        padding-right: 15.35vw; 
+        padding-left: 4%;
+        padding-right: 4%; 
     
     }  }
 @media screen and (min-width: 2200px){
-    .grid-überschrift2{
+    .grid-überschrift{
     
         color: #ffe800;
-        font-size:4em;
+        font-size: 1.5vw;
+        margin-right: 300px;
         background-color: rgb(66, 66, 66, 1);
         font-weight: bolder;
-        padding-left: 217px;
-        padding-right: 217px; 
-    }  
+        padding-left:4%;
+        padding-right:4%;
+    }
+    .grid-überschrift2{
+        
+        color: #ffe800;
+        font-size: 1.5vw;
+        background-color: rgb(66, 66, 66, 1);
+        font-weight: bolder;
+        padding-left: 4%;
+        padding-right: 4%; 
+    
+    } 
+    .Überschrift{
+
+        text-align: center;
+        color: #ffe800;
+        font-size: 5em;
+        background-color: rgb(66, 66, 66, 1);
+        font-weight: bolder;
+        border-radius: 100px;
+        
+        width: 40%;
+        margin-left: 30%;
+    
+    
+    }
 }
 .img-responsive{
     height:100%;

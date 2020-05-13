@@ -13,6 +13,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { HttpClientModule } from '@angular/common/http';
 import { BvbComponent } from './bvb/bvb.component';
 import { PhoenixseeComponent } from './phoenixsee/phoenixsee.component';
+import { CoronaComponent } from './corona/corona.component';
 
 
 
@@ -21,7 +22,8 @@ import { PhoenixseeComponent } from './phoenixsee/phoenixsee.component';
     AppComponent,
     WetterComponent,
     BvbComponent,
-    PhoenixseeComponent
+    PhoenixseeComponent,
+    CoronaComponent
   ],
   imports: [
     BrowserModule,
