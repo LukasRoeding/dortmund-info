@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bvb.component.css']
 })
 export class BvbComponent implements OnInit {
-spieltermine=["May 16, 2020","May 23, 2020","May 26, 2020","May 30, 2020","June 6, 2020","June 13, 2020",
-"June 16, 2020","June 20, 2020","June 27, 2020"]
+spieltermine=["May 16, 2020","May 23, 2020","May 26, 2020","May 30, 2020","Jun 6, 2020","Jun 13, 2020",
+"Jun 16, 2020","Jun 20, 2020","Jun 27, 2020"]
 myDate = Date.now();
 heute:boolean;
   
