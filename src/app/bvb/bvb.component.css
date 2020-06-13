@@ -4,6 +4,7 @@
         margin-bottom: 2px;
         color: #ffe800;
         margin-right: 10%;
+        text-align: center;
 }
 .keinSpieltag{
     font-size: 2em;
@@ -11,5 +12,6 @@
         margin-bottom: 2px;
         margin-right: 10%;
         color: #ffe800;
+        text-align: center;
 
 }
