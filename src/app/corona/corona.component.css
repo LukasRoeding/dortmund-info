@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px){
     .wetter{
-        font-size: 1.7em;
+        font-size: 2em;
             text-align: center;
             margin-bottom: 10px;
             color: #ffe800;
@@ -9,7 +9,7 @@
 }
 @media screen and (min-width: 1000px){
     .wetter{
-        font-size: 1em;
+        font-size: 2em;
             text-align: center;
             margin-bottom: 10px;
             color: #ffe800;
@@ -18,7 +18,7 @@
 }
 @media screen and (min-width: 1500px){
     .wetter{
-        font-size: 1.5em;
+        font-size: 2em;
             margin-left: 10%;
             margin-bottom: 10px;
             color: #ffe800;
